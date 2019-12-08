@@ -1,0 +1,64 @@
+{
+    "meta": {
+      "TotalResults": 4,
+      "LastUpdated": "2019-11-03T10:45:13.166Z"
+    },
+    "data": [
+      {
+        "code": "WBC",
+        "name": "Westpac Banking Corporation",
+        "brands": [
+          "WBC"
+        ],
+        "baseUrl": "https://digital-api.westpac.com.au/cds-au/v1/banking",
+        "supportedAPIs": {
+          "GetProducts": 
+            "v1.0",
+          "GetProductDetail": 
+              "v1.0"
+        }
+      },
+      {
+        "code": "CBA",
+        "name": "Commonwealth Bank",
+        "brands": [
+          "CBA"
+        ],
+        "baseUrl": "https://api.commbank.com.au/cds-au/v1/banking",
+        "supportedAPIs": {
+          "GetProducts": 
+            "v1.0",
+          "GetProductDetail": 
+              "v1.0"
+        }
+      },
+      {
+        "code": "ANZ",
+        "name": "ANZ Banking Group",
+        "brands": [
+          "ANZ"
+        ],
+        "baseUrl": "https://api.anz/cds-au/v1/banking",
+        "supportedAPIs": {
+          "GetProducts": 
+            "v1.0",
+          "GetProductDetail": 
+              "v1.0"
+        }
+      },
+      {
+        "code": "NAB",
+        "name": "National Australia Bank",
+        "brands": [
+          "NAB"
+        ],
+        "baseUrl": "https://openbank.api.nab.com.au/cds-au/v1/banking",
+        "supportedAPIs": {
+          "GetProducts": 
+            "v1.0",
+          "GetProductDetail": 
+              "v1.0"
+        }
+      }
+    ]
+}
